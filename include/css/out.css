@@ -1,0 +1,32 @@
+.outTxt{
+	box-sizing: border-box;
+	padding: 8vw 7.5%;
+	background: #fff;
+	box-shadow: rgba(0,0,0,0.1) 0 0 4vw;
+	border-radius: 4vw;
+}
+
+.outTxt .top img{
+	max-width: 98px;
+	width: 17%;
+	margin: 0 auto 5vw;
+	display: block;
+}
+
+.outTxt .top h3{
+	text-align: center;
+	font-size: 4vw;
+	margin-bottom: 4vw;
+}
+
+.outTxt p{
+	line-height: 1.7;
+	font-size: 3.3vw;
+	word-break: keep-all;
+	color: #929292;
+	font-weight: 500;
+}
+
+.outTxt p strong{
+	color: var(--mainCol);
+}

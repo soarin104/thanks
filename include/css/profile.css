@@ -1,0 +1,88 @@
+.content{
+	padding-bottom: 10vw;
+}
+
+/* profile */
+.profile{
+	margin-bottom: 10vw;
+}
+
+.profile .imgBox{
+	width: 20vw;
+	max-width: 122px;
+	margin: 0 auto 4vw;
+	border-radius: 50%;
+	box-shadow: rgba(0,0,0,0.1) 0 0 4vw;
+}
+
+.profile .imgBox img{
+	width: 100%;
+}
+
+.profile .txtBox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile .txtBox h3{
+	font-size: 4vw;
+	margin-right: 1vw;
+}
+
+.profile .txtBox h3 input{
+	display: inline-block;
+	background: transparent;
+	font-size: 4vw;
+	border: 0;
+	box-sizing: border-box;
+	outline: none;
+	width: auto;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.profile .txtBox img{
+	width: 4.5vw;
+	max-width: 31px;
+}
+
+.infoBox{
+	background: #fff;
+	box-sizing: border-box;
+	padding: 5vw 7.5%;
+	margin-bottom: 5vw;
+	border-radius: 4vw;
+	box-shadow: rgba(0,0,0,0.1) 0 0 4vw;
+}
+
+.infoBox h4{
+	font-size: 4vw;
+	margin-bottom: 3vw;
+	font-weight: 500;
+}
+
+.infoBox ul li{
+	display: flex;
+	align-items: center;
+	margin-bottom: 0vw;
+}
+
+.infoBox ul li h5{
+	font-size: 3.5vw;
+	line-height: 1.4;
+	width: 30%;
+	color: #929292;
+	font-weight: 500;
+}
+
+.infoBox ul li input{
+	border: 0;
+	background: transparent;
+	width: 70%;
+	font-size: 3.5vw;
+	box-sizing: border-box;
+	font-weight: 500;
+	padding: 2vw 0;
+}
